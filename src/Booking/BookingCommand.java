@@ -11,6 +11,9 @@ public class BookingCommand extends Command{
     
     @Override
     public boolean execute() {
-	    return true;
+	System.out.println("You entered Booking Menu.");
+	Button button = new Button();
+	button.BookingView();	
+	return true;
     }
 }
